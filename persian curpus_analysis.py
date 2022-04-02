@@ -34,7 +34,7 @@ def corpus_reader(the_path,):
     return string_corpus
 
 ############## input data ###############################
-data= corpus_reader(r'F:\daneshgah\university\porozhekari\Dissertation1/data1/')
+data= corpus_reader('/data/')
 header= ['corpus','label']
 Data = pd.DataFrame(data,columns=header)
 Data.head()
